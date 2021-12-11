@@ -25,15 +25,22 @@ print(int(3.14))
 print(int(3.99))
 
 # Con int() tambien podemos convertir strings a enteros.
-print(int(3.99))
+print(int("3"))
+# NO podemos convertir strings con apariencia de flotante a entero, ejemplo: int("3.2") -> da error
 
-# La función float() hace lo mismo que int(), con la diferencia de que 
+
+# La función float() hace lo mismo que int(), con la diferencia de que
 # convierte valores a flotante.
 print(float("3"))
 print(float(3))
 
 
-
+# La función str convierte valores a string
+print(str(32))
+print(str(3.2))
+alumnos = {"1": "Angel", "2": "Ruben"}
+print(str(alumnos))
+print(str(5) + "hello")
 
 
 
