@@ -4,4 +4,4 @@ print(name[0])
 print(name[len(name)-1])
 
 # Indices negativos, toman elementos desde el final del string.
-print(name[-1])
+print(name[-2])
