@@ -5,7 +5,7 @@ address = "Attractive Street, Beverly Hills, CA 90210"
 # operador <indice inicial>:<indice final>
 print(address[0:3])
 # Como se ve en el ejemplo, empezamos en la posición 0 del string y terminamos
-# en la posicion 3, pero lo que haya en la posición 3 no se incluye.
+# en la posicion 3, pero lo que hay en la posición 3 no se incluye.
 
 #Tambien funcionan los indices negativos.
 print(address[-8:-6])
